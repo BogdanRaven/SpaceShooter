@@ -62,11 +62,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\AnimationAsteriod.png" />
+    <Content Include="Content\Asteroid.png" />
+    <Content Include="Content\AsteroidAnim.png" />
+    <Content Include="Content\Avtor.png" />
+    <Content Include="Content\Back.png" />
+    <Content Include="Content\bullet.png" />
+    <Content Include="Content\bulletEnem.png" />
+    <Content Include="Content\Cursor.png" />
+    <Content Include="Content\Enemy.png" />
+    <Content Include="Content\Enemy1.png" />
+    <Content Include="Content\EnemyUpLevel.png" />
+    <Content Include="Content\Exit.png" />
+    <Content Include="Content\Explosion.wav" />
+    <Content Include="Content\ExplosionAnimationAsteroid.png" />
+    <Content Include="Content\ExplosionAnimationEmemy.png" />
+    <Content Include="Content\ExplosionAnimationEnemy.png" />
+    <Content Include="Content\ExplosionAnimationEnemyUp.png" />
+    <Content Include="Content\ExplosionAnimationPlayer.png" />
+    <Content Include="Content\Fon.png" />
+    <Content Include="Content\Fon2.png" />
+    <Content Include="Content\GameOver.png" />
+    <Content Include="Content\Help.png" />
+    <Content Include="Content\HelpText.png" />
+    <Content Include="Content\Helth.png" />
+    <Content Include="Content\Pixelship.png" />
+    <Content Include="Content\Pixelship2.png" />
+    <Content Include="Content\Play.png" />
+    <Content Include="Content\PlayerSprite.png" />
+    <Content Include="Content\Shoot.wav" />
     <Content Include="Icon.ico" />
   </ItemGroup>
   <ItemGroup>
     <MonoGameContentReference Include="Content\Content.mgcb" />
     <None Include="app.manifest" />
+    <None Include="Content\MyText.spritefont" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />

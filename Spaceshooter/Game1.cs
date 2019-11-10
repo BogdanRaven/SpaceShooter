@@ -10,6 +10,7 @@ namespace Spaceshooter
    
     public class Game1 : Game
     {
+        //space shooter one love
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
